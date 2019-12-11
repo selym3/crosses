@@ -309,7 +309,7 @@ public class Board extends JFrame implements ActionListener { //Board is acting 
         }
         
         //cell 3
-        if (bVals[winCondition[2]].equals("0")) {
+        if (bVals[winCondition[2]].equals("O")) {
         	if (score > 0) {  // cell 1 and/or cell 2 was computer
                score *= 10;
             } else if (score < 0) {  // cell 1 and/or cell 2 was oppSeed
